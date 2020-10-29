@@ -1,4 +1,4 @@
-// gcc -O4 -o nfc-supercard -lnfc -lcrypto nfc-supercard.c crapto1.c crypto1.c
+// gcc -O4 -o nfc-supercard nfc-supercard.c crapto1.c crypto1.c -lnfc -lcrypto
 
 #define __STDC_FORMAT_MACROS
 #include <inttypes.h>
